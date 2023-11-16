@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./consultas.css"
 
+
 const bull = (
   <Box
     component="span"
