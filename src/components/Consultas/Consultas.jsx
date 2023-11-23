@@ -14,22 +14,30 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div>
+    <div className='consultas'>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            General settings
+          <Typography sx={{ width: '100%', flexShrink: 0, fontFamily: 'Futura Std' }}>
+          Regularidad
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+          <Typography sx={{ paddingRight: '20px', flexShrink: 0, fontFamily: 'Futura Std' }}>
+            <div>
+              <strong>Como estipula el Reglamento de Alumnos</strong>
+                <ul>
+                  <ol><strong>ARTÍCULO 17.-</strong>  El alumno que no hubiere aprobado su examen final en el plazo previsto en el artículo 16 y/o hubiera reprobado en 3 (tres) oportunidades su examen final, perderá la regularidad en la asignatura y deberá recursarla, con excepción de las 2 (dos) últimas unidades curriculares que pudiere adeudar de su Plan de Estudios. Esta circunstancia no afectará su inscripción y condición en relación a las obligaciones curriculares correlativas.</ol>
+                  <ol><strong>ARTÍCULO 18.-</strong>  La SECRETARÍA ACADÉMICA podrá conceder una prórroga o nueva oportunidad de examen final, en acuerdo con el CONSEJO del DEPARTAMENTO ACADÉMICO correspondiente, previa solicitud debidamente justificada del interesado y dictamen del titular de la asignatura.</ol>
+                  <ol><strong>ARTÍCULO 19.-</strong>  El alumno que optare por recursar una materia en condición regular, a efectos de su promoción mediante el régimen de regularidad, perderá la condición de regular en la materia obtenida con anterioridad.</ol>
+                  <ol>No se admitirá la inscripción para recursar una materia en condición regular, antes del plazo de 1 (un) año a computar desde la fecha de su regularización.</ol>
+                </ul>  
+            </div>
+   
+                     
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -39,13 +47,13 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Users</Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-            You are currently not an owner
+          <Typography sx={{ width: '33%', flexShrink: 0, fontFamily: 'Futura Std' }}>Users</Typography>
+          <Typography sx={{ color: 'text.secondary', fontFamily: 'Futura Std' }}>
+            ¿You are currently not an owner?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{ fontFamily: 'Futura Std' }}>
             Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
             varius pulvinar diam eros in elit. Pellentesque convallis laoreet
             laoreet.
@@ -58,12 +66,10 @@ export default function ControlledAccordions() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography sx={{ width: '100%', flexShrink: 0, fontFamily: 'Futura Std' }}>
             Advanced settings
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-            Filtering has been entirely disabled for whole web server
-          </Typography>
+
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -78,7 +84,51 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography>
+          <Typography sx={{ width: '33%', flexShrink: 0, fontFamily: 'Futura Std' }}>Personal data</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
+            amet egestas eros, vitae egestas augue. Duis vel est augue.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel5bh-content"
+          id="panel5bh-header"
+        >
+          <Typography sx={{ width: '33%', flexShrink: 0, fontFamily: 'Futura Std' }}>Personal data</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
+            amet egestas eros, vitae egestas augue. Duis vel est augue.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>      <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel6bh-content"
+          id="panel6bh-header"
+        >
+          <Typography sx={{ width: '33%', flexShrink: 0, fontFamily: 'Futura Std' }}>Personal data</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
+            amet egestas eros, vitae egestas augue. Duis vel est augue.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>      
+      <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel7bh-content"
+          id="panel7bh-header"
+        >
+          <Typography>Personal data</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
