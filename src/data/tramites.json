@@ -1,4 +1,5 @@
-[
+{
+	"tramites":[
 	{
 		"id": 1,
 		"nombre": "Cambio o Simultaneidad de Carreras",
@@ -42,3 +43,4 @@
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163402"
 	}
 ]
+}

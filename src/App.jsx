@@ -1,17 +1,18 @@
-import OutlinedCard from './components/Tramites/Tramites'
+import TituloTramites from './components/Tramites/Titulo'
 import ControlledAccordions from './components/Consultas/Consultas'
 import Consultas from './components/Consultas/Titulo'
-import Tramites from './components/Tramites/Titulo'
+import Tramites from './components/Tramites/Tramites'
+import { tramites } from './data/tramites.json'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Tramites />
-      <OutlinedCard />
+      <TituloTramites />
+      <Tramites tramites={tramites}/>
       <Consultas />
-      <ControlledAccordions />
+      <ControlledAccordions tramites={tramites}/>
     </>
   )
 }
