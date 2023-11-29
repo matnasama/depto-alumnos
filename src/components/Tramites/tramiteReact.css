@@ -1,0 +1,17 @@
+.tramites-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.MuiPaper-outlined {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+  .MuiTypography-h5 {
+    color: #0a2447;
+}

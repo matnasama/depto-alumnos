@@ -1,6 +1,7 @@
 
 import * as React from 'react';
 import "./tramites.css"
+import Button from '@mui/material/Button';
 
 export default function Tramites({ tramites }) {
 
@@ -13,6 +14,8 @@ export default function Tramites({ tramites }) {
           <h2>{tramites.nombre}</h2>
           <p>{tramites.descripcion}</p>
         </div>
+        <Button size="small">Ver trámite</Button>
+
         <a href={tramites.url} target='_blank'>Ver trámite</a>
       </div>
     ))}

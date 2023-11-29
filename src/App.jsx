@@ -1,8 +1,9 @@
 import TituloTramites from './components/Tramites/Titulo'
 import ControlledAccordions from './components/Consultas/Consultas'
 import Consultas from './components/Consultas/Titulo'
-import Tramites from './components/Tramites/Tramites'
-import { tramites } from './data/tramites.json'
+import BasicCard from './components/Tramites/TramiteReact'
+import { tramites } from './data/data.json'
+import { consultas } from './data/data.json'
 import './App.css'
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
   return (
     <>
       <TituloTramites />
-      <Tramites tramites={tramites}/>
+      <BasicCard tramites={tramites}/>
       <Consultas />
-      <ControlledAccordions tramites={tramites}/>
+      <ControlledAccordions consultas={consultas}/>
     </>
   )
 }
