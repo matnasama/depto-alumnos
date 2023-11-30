@@ -1,63 +1,49 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Modal from '@mui/material/Modal';
-import { tramites } from '../../data/data.json'
+import React, { useState } from 'react';
+import { Card, CardContent, CardActions, Button, Typography, Modal, Box } from '@mui/material';
 import './tramiteReact.css'
 
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: '#222',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
-    color: '#fff'
-    
+const BasicCard = ({ tramites }) => {
+  const [openModal, setOpenModal] = useState({});
+  
+  const handleOpen = (tramiteId) => {
+    setOpenModal({ ...openModal, [tramiteId]: true });
   };
-
-export default function BasicCard() {
-    
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);   
+  
+  const handleClose = (tramiteId) => {
+    setOpenModal({ ...openModal, [tramiteId]: false });
+  };
 
   return (
     <div className='tramites-container'>
-    {tramites.map((tramites) => (
-        <Card variant="outlined" sx={{ width: 330, height: 330, borderRadius: 6 }}>
-        <CardContent>
-            <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color:"#0a2447", fontWeight:600 }}>
-                {tramites.nombre}
+      {tramites.map((tramite) => (
+        <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, borderRadius: 4 }}>
+          <CardContent>
+            <Typography variant="h4" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600 }}>
+              {tramite.nombre}
             </Typography>
-        </CardContent>
-        <CardActions key={tramites.id}>
-            <Button onClick={handleOpen}>Leer más</Button>
+          </CardContent>
+          <CardActions>
+            <Button onClick={() => handleOpen(tramite.id)}>Leer más</Button>
             <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
+              open={openModal[tramite.id] || false}
+              onClose={() => handleClose(tramite.id)}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
             >
-            <Box sx={style}>
+              <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', boxShadow: 24, p: 4 }}>
                 <Typography id="modal-modal-title" variant="h6" component="h2">
-                {tramites.nombre}
+                  {tramite.nombre}
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                {tramites.descripcion}
+                  {tramite.descripcion}
                 </Typography>
-            </Box>
+              </Box>
             </Modal>
-        </CardActions>
+          </CardActions>
         </Card>
-        ))}
+      ))}
     </div>
   );
-}
+};
+
+export default BasicCard;

@@ -15,3 +15,13 @@
   .MuiTypography-h5 {
     color: #0a2447;
 }
+
+.MuiBox-root {
+  color: #000000;
+  border-radius: 3px;
+  padding: 3rem;
+}
+
+.titulo {
+  color: #fff;
+}

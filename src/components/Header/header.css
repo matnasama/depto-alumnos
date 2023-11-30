@@ -1,0 +1,38 @@
+a .MuiLink-root {
+    color: #fff;
+}
+
+.departamentos_contenedor {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    clear: none;
+    float: none;
+    height: auto;
+    display: table;
+  }
+
+  .departamentos_linea {
+    border-top-width: 5px;
+    border-top-style: solid;
+    width: 20%;
+    display: table-cell;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .departamentos_color1 {
+    border-top-color: #B5458D;
+  }
+  .departamentos_color2 {
+    border-top-color: #5AAA31;
+  }
+  .departamentos_color3 {
+    border-top-color: #66B2D6;
+  }
+  .departamentos_color4 {
+    border-top-color: #F59C00;
+  }
+  .departamentos_color5 {
+    border-top-color: #D32A17;
+  }
