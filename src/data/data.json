@@ -47,9 +47,9 @@
 		{
 			"id": 1,
 			"nombre": "Regularidad",
-			"descripcion": "Como estipula el Reglamento de Alumnos ARTÍCULO 17.- El alumno que no hubiere aprobado su examen final en el plazo previsto en el artículo 16 y/o hubiera reprobado en 3 (tres) oportunidades su examen final, perderá la regularidad en la asignatura y deberá recursarla, con excepción de las 2 (dos) últimas unidades curriculares que pudiere adeudar de su Plan de Estudios. Esta circunstancia no afectará su inscripción y condición en relación a las obligaciones curriculares correlativas. ARTÍCULO 18.- La SECRETARÍA ACADÉMICA podrá conceder una prórroga o nueva oportunidad de examen final, en acuerdo con el CONSEJO del DEPARTAMENTO ACADÉMICO correspondiente, previa solicitud debidamente justificada del interesado y dictamen del titular de la asignatura. ARTÍCULO 19.- El alumno que optare por recursar una materia en condición regular, a efectos de su promoción mediante el régimen de regularidad, perderá la condición de regular en la materia obtenida con anterioridad. No se admitirá la inscripción para recursar una materia en condición regular, antes del plazo de 1 (un) año a computar desde la fecha de su regularización.",
+			"descripcion": "Como estipula el Reglamento de Alumnos: \n\nARTÍCULO 16.- Aquellos alumnos en condición regular en una asignatura deberán rendir su examen final para promoverla, en cualquiera de los Turnos de Exámenes dentro del plazo de 2 (dos) años, a computar desde la fecha del primer llamado posterior a la fecha de regularización de la materia.\n\nARTÍCULO 17.- El alumno que no hubiere aprobado su examen final en el plazo previsto en el artículo 16 y/o hubiera reprobado en 3 (tres) oportunidades su examen final, perderá la regularidad en la asignatura y deberá recursarla, con excepción de las 2 (dos) últimas unidades curriculares que pudiere adeudar de su Plan de Estudios. Esta circunstancia no afectará su inscripción y condición en relación a las obligaciones curriculares correlativas.\n\nARTÍCULO 18.- La SECRETARÍA ACADÉMICA podrá conceder una prórroga o nueva oportunidad de examen final, en acuerdo con el CONSEJO del DEPARTAMENTO ACADÉMICO correspondiente, previa solicitud debidamente justificada del interesado y dictamen del titular de la asignatura.\n\nARTÍCULO 19.- El alumno que optare por recursar una materia en condición regular, a efectos de su promoción mediante el régimen de regularidad, perderá la condición de regular en la materia obtenida con anterioridad. No se admitirá la inscripción para recursar una materia en condición regular, antes del plazo de 1 (un) año a computar desde la fecha de su regularización.",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163397"
-		},
+		  },
 		{
 			"id": 2,
 			"nombre": "Inscripciones a Asignaturas",
@@ -77,13 +77,13 @@
 		{
 			"id": 6,
 			"nombre": "Solicitud de Títulos",
-			"descripcion": "A través del mismo estarás solicitando la documentación de verificación de cumplimiento de requisitos de ingreso, que se requiere para presentar al Departamento de Títulos.",
+			"descripcion": "\nRecuerde verificar en su historial antes de completar el formulario y enviar su solicitud;  el cumplimiento del 100% del requerimiento de materias aprobadas según el plan de la carrera, para el título que solicitará. Ya que se deben encontrar todas las actividades correspondientes aprobadas y en actas cerradas, para que consten en su historial académico.\n\nSi completa el formulario no teniendo aún aprobadas la totalidad de las asignaturas, necesarias para la emisión del título, se desestimará la solicitud.\n\nPara solicitar la documentación que se requiere en la tramitación de su título deberá completar el siguiente formulario online Solicitud de documentación para Títulos.\n\nCompletando la misma se emitirá el Certificado de Cumplimiento de Requisitos de Ingreso y el Certificado de Asignaturas Rendidas, que posteriormente presentará al Departamento de Títulos.\n\nEl tiempo de entrega de la documentación estará sujeta a la verificación de datos realizadas por las áreas intervinientes.\n\nEn caso de corresponder se realizarán las modificaciones de sus datos en sistema antes de remitirle la documentación.",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163404"
 		},
 		{
 			"id": 7,
 			"nombre": "Solicitud de Equivalencias",
-			"descripcion": "En este espacio podrás encontrar toda la información necesaria para realizar trámites de equivalencias",
+			"descripcion":"\nPara solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163402"
 		}
 	]

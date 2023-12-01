@@ -18,7 +18,7 @@ const BasicCard = ({ tramites }) => {
       {tramites.map((tramite) => (
         <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, borderRadius: 4 }}>
           <CardContent>
-            <Typography variant="h4" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600 }}>
+            <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600, textTransform:'uppercase' }}>
               {tramite.nombre}
             </Typography>
           </CardContent>
