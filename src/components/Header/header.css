@@ -1,8 +1,28 @@
 a .MuiLink-root {
     color: #fff;
 }
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.departamentos_contenedor {
+.logo {
+    height: 100px; 
+  }
+
+.MuiBox-root {
+    display: grid;
+    place-content: center;
+    padding: 0 1rem;
+  }
+
+.link-logo {
+    display: grid;
+    place-content: center;
+  }
+
+  .departamentos_contenedor {
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -35,24 +55,4 @@ a .MuiLink-root {
   }
   .departamentos_color5 {
     border-top-color: #D32A17;
-  }
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .logo {
-    height: 100px; 
-  }
-
-  .MuiBox-root {
-    display: grid;
-    place-content: center;
-    padding: 0 1rem;
-  }
-
-  .link-logo {
-    display: grid;
-    place-content: center;
   }

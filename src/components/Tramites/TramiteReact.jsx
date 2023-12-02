@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardActions, Button, Typography, Modal, Box } from '@mui/material';
-import './tramiteReact.css'
+import './tramiteReact.css';
 
 const BasicCard = ({ tramites }) => {
-  const [openModal, setOpenModal] = useState({});
-  
+  const [openModal, setOpenModal] = useState(null);
+
   const handleOpen = (tramiteId) => {
-    setOpenModal({ ...openModal, [tramiteId]: true });
+    setOpenModal(tramiteId);
   };
-  
-  const handleClose = (tramiteId) => {
-    setOpenModal({ ...openModal, [tramiteId]: false });
+
+  const handleClose = () => {
+    setOpenModal(null);
   };
 
   return (
@@ -25,16 +25,30 @@ const BasicCard = ({ tramites }) => {
           <CardActions>
             <Button onClick={() => handleOpen(tramite.id)}>Leer más</Button>
             <Modal
-              open={openModal[tramite.id] || false}
-              onClose={() => handleClose(tramite.id)}
+              open={openModal === tramite.id}
+              onClose={handleClose}
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', boxShadow: 24, p: 4 }}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  maxWidth: '90vw', // Ajusta el ancho máximo relativo al ancho de la ventana
+                  maxHeight: '90vh', // Ajusta la altura máxima relativa al alto de la ventana
+                  overflowY: 'auto', // Añade desplazamiento vertical si es necesario
+                  bgcolor: 'background.paper',
+                  boxShadow: 24,
+                  p: 4,
+                  borderRadius: 4,
+                }}
+              >
+                <Typography id="modal-modal-title" variant="h4" component="h2">
                   {tramite.nombre}
                 </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                <Typography id="modal-modal-description" sx={{ mt: 2, whiteSpace: 'pre-line' }}>
                   {tramite.descripcion}
                 </Typography>
               </Box>
