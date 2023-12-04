@@ -3,19 +3,19 @@
 	{
 		"id": 1,
 		"nombre": "Cambio o Simultaneidad de Carreras",
-		"descripcion": "A través del formulario que encontrará al final de la página podrá realizar la solicitud de CAMBIO o SIMULTANEIDAD DE CARRERA.",
-        "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163397"
+		"descripcion": "Para solicitar un cambio o simultaneidad* de carrera, deberá completar los siguientes formularios:\n\n- CUESTIONARIO - ORIENTACIÓN\n- SOLICITUD DE CAMBIO/SIMULTANEIDAD DE CARRERA\n- FORMULARIO PRE-INSCRIPCIÓN\n\nJunto con los formularios completos, deberá presentar DNI y Analítico del Secundario (ORIGINALES y FOTOCOPIAS).\nPosteriormente, deberá realizar la presentación de los documentos de manera personal.\n* Para solicitar simultaneidad de carreras, es necesario contar con un 25% de las asignaturas aprobadas de la carrera en la que se encuentra previamente inscrito.",
+		"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163397"
 	},
 	{
 		"id": 2,
 		"nombre": "Cambio de Institución",
-		"descripcion": "A través del formulario que encontrará al final de la página usted podrá solicitar la documentación para solicitar equivalencias en otra institución. Dicha solicitud no afecta a su regularidad en la institución.",
+		"descripcion": "Para solicitar la documentación mencionada deberá completar el siguiente formulario online Formulario Cambio de Institución.",
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163398"
 	},
 	{
 		"id": 3,
 		"nombre": "Certificado de Examen",
-		"descripcion": "A través de los formularios que encontrará al final de la página usted podrá solicitar Certificados de Examen ingresando sus datos en el formulario correspondiente a su Departamento de Carrera.",
+		"descripcion": "Los Certificados de Examen podrá retirarlos en el Departamento de Alumnos o bien podrá imprimir este modelo.\nLos Certificados de Examen deben ser presentados en el Departamento de Alumnos con firma y aclaración del docente con fecha del día del examen. \n\nEn el Departamento de Alumnos no se certifican las prácticas realizadas fuera de la universidad",
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163401"
 	},
 	{
@@ -26,8 +26,8 @@
 	},
 	{
 		"id": 5,
-		"nombre": "Certificado de Alumno Regular",
-		"descripcion": "A través del formulario que encontrará al final de la página podrás solicitar Certificados de Alumno Regular y/o Certificado de Asignaturas Rendidas.",
+		"nombre": "Certificado de Alumno Regular \no \nAsignaturas Rendidas",
+		"descripcion": "En la sección CONSULTAS FRECUENTES podrá encontrar el instrutivo para generar cualquiera de las constancias.\n\n Si necesita una constancia de Alumno Regular específica, con días y horarios de cursada, podrá descargar el modelo aquí, completarlo y presentarlo en el Departamento de Alumnos",
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163408"
 	},
 	{

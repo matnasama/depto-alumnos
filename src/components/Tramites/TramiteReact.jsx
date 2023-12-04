@@ -13,12 +13,29 @@ const BasicCard = ({ tramites }) => {
     setOpenModal(null);
   };
 
+  const getModalStyle = () => {
+    return {
+      position: 'absolute',
+      margin: 'auto',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      overflowY: 'auto',
+      bgcolor: 'background.paper',
+      boxShadow: 24,
+      p: 4,
+      borderRadius: 0,
+      width: '90vw',
+      height: '80vh',
+    };
+  };
+
   return (
     <div className='tramites-container'>
       {tramites.map((tramite) => (
-        <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, borderRadius: 4 }}>
+        <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330 }}>
           <CardContent>
-            <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600, textTransform:'uppercase' }}>
+            <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600, textTransform:'uppercase', whiteSpace: 'pre-line' }}>
               {tramite.nombre}
             </Typography>
           </CardContent>
@@ -30,22 +47,8 @@ const BasicCard = ({ tramites }) => {
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
-              <Box
-                sx={{
-                  position: 'absolute',
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  maxWidth: '90vw', // Ajusta el ancho máximo relativo al ancho de la ventana
-                  maxHeight: '90vh', // Ajusta la altura máxima relativa al alto de la ventana
-                  overflowY: 'auto', // Añade desplazamiento vertical si es necesario
-                  bgcolor: 'background.paper',
-                  boxShadow: 24,
-                  p: 4,
-                  borderRadius: 4,
-                }}
-              >
-                <Typography id="modal-modal-title" variant="h4" component="h2">
+              <Box sx={getModalStyle()}>
+                <Typography id="modal-modal-title" variant="h4" component="h2" sx={{textAlign:'center'}}>
                   {tramite.nombre}
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2, whiteSpace: 'pre-line' }}>
