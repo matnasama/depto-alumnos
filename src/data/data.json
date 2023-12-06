@@ -27,6 +27,7 @@
 	{
 		"id": 5,
 		"nombre": "Constancias \no \nCertificados",
+		"sub": "Alumno Regular\nAsignaturas Rendidas",
 		"descripcion": "En la sección CONSULTAS FRECUENTES podrá encontrar el instrutivo para generar cualquiera de las constancias.\n\n Si necesita una constancia de Alumno Regular específica, con días y horarios de cursada, podrá descargar el modelo aquí, completarlo y presentarlo en el Departamento de Alumnos",
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163408"
 	},

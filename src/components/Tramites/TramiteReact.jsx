@@ -36,6 +36,9 @@ const BasicCard = ({ tramites }) => {
             <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600, textTransform:'uppercase', whiteSpace: 'pre-line' }}>
               {tramite.nombre}
             </Typography>
+            <Typography sx={{ mb: 1.5, fontSize: '0.8em', whiteSpace: 'pre-line' }} color="text.secondary">
+              {tramite.sub}
+            </Typography>
           </CardContent>
           <CardActions>
             <Button onClick={() => handleOpen(tramite.id)}>Leer más</Button>
