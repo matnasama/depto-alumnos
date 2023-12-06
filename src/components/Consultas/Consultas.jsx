@@ -24,7 +24,7 @@ export default function ControlledAccordions() {
                   aria-controls="panel1bh-content"
                   id="panel1bh-header"
                 >
-                  <Typography sx={{ width: '100%', flexShrink: 0, fontFamily: 'Futura Std' }}>
+                  <Typography sx={{ width: '100%', flexShrink: 0, fontFamily: 'Futura Std', textTransform: 'uppercase' }}>
                   {consultas.nombre}
                   </Typography>
                 </AccordionSummary>

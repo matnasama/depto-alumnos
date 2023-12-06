@@ -54,13 +54,13 @@
 		{
 			"id": 2,
 			"nombre": "Inscripciones a Asignaturas",
-			"descripcion": "En caso de que no se haya aceptado alguna de sus inscripciones deberá volver a intentar la inscripción en el segundo llamado. Si tuviera algún inconveniente a la hora de inscribirse en el Segundo Llamado de Inscripción a Asignaturas deberá comunicarse con el departamento de su carrera.\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
+			"descripcion": "En caso de que no se haya aceptado alguna de sus inscripciones deberá volver a intentar la inscripción en el segundo llamado. Si tuviera algún inconveniente a la hora de inscribirse en el Segundo Llamado de Inscripción a Asignaturas deberá comunicarse con el departamento de su carrera.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163398"
 		},
 		{
 			"id": 3,
 			"nombre": "Cambio de Comisión",
-			"descripcion": "En caso de haberse inscripto en una asignatura donde no puede o no desea cursar deberá darse de baja en la comisión en cuestión antes de finalizar el Segundo Llamado de Inscripción a Asignaturas e inscribirse en la comisión que es de su interés. Si su consulta duda surge una vez finalizados los llamados de inscripción debe realizar su consulta al departamento de su carrera.\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
+			"descripcion": "En caso de haberse inscripto en una asignatura donde no puede o no desea cursar deberá darse de baja en la comisión en cuestión antes de finalizar el Segundo Llamado de Inscripción a Asignaturas e inscribirse en la comisión que es de su interés. Si su consulta duda surge una vez finalizados los llamados de inscripción debe realizar su consulta al departamento de su carrera.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163401"
 		},
 		{
@@ -72,19 +72,19 @@
 		{
 			"id": 5,
 			"nombre": "Solicitar constancias o certificados",
-			"descripcion":"\nPara solicitar Certificado de Alumno Regular o de Asignaturas Rendidas, sigue los pasos a continuación:\n\n1. Accede dentro del SIU-GUARANÍ en la pestaña TRÁMITES.\n\n2. Selecciona la opción 'Solicitar Constancias y Certificados'.\n\n3. Haz clic en el botón 'NUEVA SOLICITUD'.\n\n4. Completa el formulario con tu información de la constancia o certificado que necesitas.\n\n5. Verifica que toda la información sea correcta y confirma la solicitud.\n\n6. El sistema generará automáticamente la constancia o certificado solicitado para que la descargues.",
+			"descripcion":"Para solicitar Certificado de Alumno Regular o de Asignaturas Rendidas, sigue los pasos a continuación:\n\n1. Accede dentro del SIU-GUARANÍ en la pestaña TRÁMITES.\n\n2. Selecciona la opción 'Solicitar Constancias y Certificados'.\n\n3. Haz clic en el botón 'NUEVA SOLICITUD'.\n\n4. Completa el formulario con tu información de la constancia o certificado que necesitas.\n\n5. Verifica que toda la información sea correcta y confirma la solicitud.\n\n6. El sistema generará automáticamente la constancia o certificado solicitado para que la descargues.",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163408"
 		},
 		{
 			"id": 6,
 			"nombre": "Solicitud de Títulos",
-			"descripcion": "\nRecuerde verificar en su historial antes de completar el formulario y enviar su solicitud;  el cumplimiento del 100% del requerimiento de materias aprobadas según el plan de la carrera, para el título que solicitará. Ya que se deben encontrar todas las actividades correspondientes aprobadas y en actas cerradas, para que consten en su historial académico.\n\nSi completa el formulario no teniendo aún aprobadas la totalidad de las asignaturas, necesarias para la emisión del título, se desestimará la solicitud.\n\nPara solicitar la documentación que se requiere en la tramitación de su título deberá completar el siguiente formulario online Solicitud de documentación para Títulos.\n\nCompletando la misma se emitirá el Certificado de Cumplimiento de Requisitos de Ingreso y el Certificado de Asignaturas Rendidas, que posteriormente presentará al Departamento de Títulos.\n\nEl tiempo de entrega de la documentación estará sujeta a la verificación de datos realizadas por las áreas intervinientes.\n\nEn caso de corresponder se realizarán las modificaciones de sus datos en sistema antes de remitirle la documentación.",
+			"descripcion": "Recuerde verificar en su historial antes de completar el formulario y enviar su solicitud;  el cumplimiento del 100% del requerimiento de materias aprobadas según el plan de la carrera, para el título que solicitará. Ya que se deben encontrar todas las actividades correspondientes aprobadas y en actas cerradas, para que consten en su historial académico.\n\nSi completa el formulario no teniendo aún aprobadas la totalidad de las asignaturas, necesarias para la emisión del título, se desestimará la solicitud.\n\nPara solicitar la documentación que se requiere en la tramitación de su título deberá completar el siguiente formulario online Solicitud de documentación para Títulos.\n\nCompletando la misma se emitirá el Certificado de Cumplimiento de Requisitos de Ingreso y el Certificado de Asignaturas Rendidas, que posteriormente presentará al Departamento de Títulos.\n\nEl tiempo de entrega de la documentación estará sujeta a la verificación de datos realizadas por las áreas intervinientes.\n\nEn caso de corresponder se realizarán las modificaciones de sus datos en sistema antes de remitirle la documentación.",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163404"
 		},
 		{
 			"id": 7,
 			"nombre": "Solicitud de Equivalencias",
-			"descripcion":"\nPara solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
+			"descripcion":"Para solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
 			"enlaces": {
 				"NOTA DE SOLICITUD": "https://www.ejemplo.com/nota-de-solicitud",
 				"REQUISITOS DE EQUIVALENCIAS": "https://www.ejemplo.com/requisitos-de-equivalencias"
@@ -94,7 +94,7 @@
 		{
 			"id": 8,
 			"nombre": "Consultas a Bienestar Universitario",
-			"descripcion": "Becas Internas\nBecas Externas\nDeporte Universitario\nBolsa de trabajo y pasantías\nPrograma Comunidad UNM\nConvivencia Universitaria\nBoleto estudiantil\n\nPara consultas adicionales, puedes comunicarte con el Departamento de Bienestar Universitario a través del correo electrónico: bienestaruniversitario@unm.edu.ar."
+			"descripcion": "Para consultas adicionales sobre\n Becas Internas\nBecas Externas\nDeporte Universitario\nBolsa de trabajo y pasantías\nPrograma Comunidad UNM\nConvivencia Universitaria\nBoleto estudiantil\npuedes comunicarte con el Departamento de Bienestar Universitario\n a través del correo electrónico: bienestaruniversitario@unm.edu.ar"
 		  }
 	]
 }
