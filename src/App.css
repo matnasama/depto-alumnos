@@ -24,3 +24,8 @@
   text-align: center;
   margin: auto;
 }
+
+.MuiTypography-root{
+  display: grid;
+  place-content: center;
+}
