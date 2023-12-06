@@ -6,6 +6,6 @@ footer {
     margin: 2rem auto 0 auto;
 }
 
-.MuiSvgIcon-root{
+footer .MuiSvgIcon-root{
     color: #0a2447;
 }
