@@ -52,13 +52,13 @@ export default function UnderlineLink() {
               }}
               onClick={preventDefault}
             >
-              <Link href="#" color="#fff" underline="hover">
+              <Link href="#" color="#fff" underline="none">
                 {'Inicio'}
               </Link>
-              <Link href="#" color="#fff" underline="hover">
+              <Link href="#" color="#fff" underline="none">
                 {'Tramites'}
               </Link>
-              <Link href="#" color="#fff" underline="hover">
+              <Link href="#" color="#fff" underline="none">
                 {'Contacto'}
               </Link>
             </Box>
@@ -77,14 +77,14 @@ export default function UnderlineLink() {
               width: 250,
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'center',
-              padding: '1rem',
+              alignItems: 'left',
               fontSize: '24px',
-            
+              margin: '0 0 0 2rem',
+
             }}
           >
             <IconButton
-              color="inherit"
+              color="#000000"
               edge="end"
               aria-label="close menu"
               onClick={toggleDrawer}
@@ -94,13 +94,13 @@ export default function UnderlineLink() {
               <CloseIcon fontSize="inherit" style={{ fontSize: '40px' }} />
             </IconButton>
 
-            <Link href="#" color="#000" underline="hover" onClick={preventDefault}>
+            <Link href="#" color="#0a2447" underline='none' onClick={preventDefault}>
               {'Inicio'}
             </Link>
-            <Link href="#" color="#000" underline="hover" onClick={preventDefault}>
+            <Link href="#" color="#0a2447" underline='none' onClick={preventDefault}>
               {'Tramites'}
             </Link>
-            <Link href="#" color="#000" underline="hover" onClick={preventDefault}>
+            <Link href="#" color="#0a2447" underline='none' onClick={preventDefault}>
               {'Contacto'}
             </Link>
           </Box>
