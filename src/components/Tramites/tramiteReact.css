@@ -15,16 +15,20 @@
     justify-content: space-around;
 }
 
-  .MuiTypography-h5 {
+.MuiTypography-h5 {
     color: #0a2447;
 }
 
 .MuiBox-root {
-  color: #ffffff;
+  color: #000000;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.titulo .MuiBox-root {
+  color: #fff;
 }
 
 @media only screen and (max-width: 480px) {
@@ -46,8 +50,4 @@
     max-height: 75%;
   }}
 
-
-.titulo {
-  color: #fff;
-}
 

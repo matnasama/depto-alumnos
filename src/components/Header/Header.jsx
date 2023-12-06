@@ -22,7 +22,7 @@ export default function UnderlineLink() {
   return (
     <div className="header" style={{ height: '80px' }}>
       <div className="navbar">
-        <a className='link-logo' href="www.unm.edu.ar">
+        <a className='link-logo' href="#">
           <img className='logo' src={unmLogo} alt="" />
         </a>
 
