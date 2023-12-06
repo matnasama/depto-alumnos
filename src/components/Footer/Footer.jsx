@@ -48,17 +48,17 @@ export default function Footer() {
               Seguinos
             </Typography>
             <Link href="https://www.facebook.com/unimoreno" color="inherit">
-              <Facebook />
+              <Facebook fontSize='large' />
             </Link>
             <Link
               href="https://www.instagram.com/unm_oficial/"
               color="inherit"
               sx={{ pl: 1, pr: 1 }}
             >
-              <Instagram />
+              <Instagram fontSize='large' />
             </Link>
             <Link href="https://twitter.com/unimoreno" color="inherit">
-              <Twitter />
+              <Twitter fontSize='large' />
             </Link>
           </Grid>
         </Grid>
