@@ -1,3 +1,5 @@
+
+
 .tramites-container {
     display: flex;
     flex-direction: row;
@@ -5,6 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  
 
 .MuiPaper-outlined {
     display: flex;
@@ -19,9 +22,32 @@
 .MuiBox-root {
   color: #000000;
   border-radius: 3px;
-  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+@media only screen and (max-width: 480px) {
+  .MuiBox-root {
+    max-height: 80%;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .MuiBox-root {
+    max-height: 80%;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .MuiBox-root {
+    max-height: 75%;
+  }}
+
 
 .titulo {
   color: #fff;
 }
+

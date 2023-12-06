@@ -29,7 +29,7 @@ export default function UnderlineLink() {
         {isMobile && (
           <div className="menu" style={{ marginInlineEnd: '16px' }}>
             <IconButton color="inherit" edge="end" aria-label="menu" onClick={toggleDrawer} size="large">
-              <MenuIcon fontSize="inherit" style={{ fontSize: '60px' }} />
+              <MenuIcon fontSize="inherit" style={{ fontSize: '55px' }} />
             </IconButton>
           </div>
         )}
@@ -44,8 +44,8 @@ export default function UnderlineLink() {
                 alignItems: 'center',
                 height: '40px',
                 padding: 0,
-                fontSize: '1.3em',
-                marginRight: '2rem',
+                fontSize: '1.2em',
+                marginRight: '5rem',
                 '& > :not(style) ~ :not(style)': {
                   ml: 2,
                 },

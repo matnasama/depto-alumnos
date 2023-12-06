@@ -23,10 +23,8 @@ const BasicCard = ({ tramites }) => {
       overflowY: 'auto',
       bgcolor: 'background.paper',
       boxShadow: 24,
-      p: 4,
-      borderRadius: 0,
-      width: '90vw',
-      height: '80vh',
+      p: 3,
+      minWidth: 250,
     };
   };
 
@@ -48,10 +46,10 @@ const BasicCard = ({ tramites }) => {
               aria-describedby="modal-modal-description"
             >
               <Box sx={getModalStyle()}>
-                <Typography id="modal-modal-title" variant="h4" component="h2" sx={{textAlign:'center'}}>
+                <Typography id="modal-modal-title" variant="h6" component="h6" sx={{fontFamily: 'Futura Std', textAlign:'center', fontWeight:600, textTransform:'uppercase' }}>
                   {tramite.nombre}
                 </Typography>
-                <Typography id="modal-modal-description" sx={{ mt: 2, whiteSpace: 'pre-line' }}>
+                <Typography id="modal-modal-description" sx={{fontFamily: 'Futura Std', mt: 2, whiteSpace: 'pre-line', fontWeight:200 }}>
                   {tramite.descripcion}
                 </Typography>
               </Box>

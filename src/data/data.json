@@ -26,7 +26,7 @@
 	},
 	{
 		"id": 5,
-		"nombre": "Certificado de Alumno Regular \no \nAsignaturas Rendidas",
+		"nombre": "Constancias \no \nCertificados",
 		"descripcion": "En la sección CONSULTAS FRECUENTES podrá encontrar el instrutivo para generar cualquiera de las constancias.\n\n Si necesita una constancia de Alumno Regular específica, con días y horarios de cursada, podrá descargar el modelo aquí, completarlo y presentarlo en el Departamento de Alumnos",
         "url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163408"
 	},
@@ -70,8 +70,8 @@
 		},
 		{
 			"id": 5,
-			"nombre": "Solicitar constancias de alumno regular o de asignaturas rendidas",
-			"descripcion":"\nPara solicitar constancias y certificados, sigue los pasos a continuación:\n\n1. Accede dentro del SIU-GUARANÍ en la pestaña TRÁMITES.\n\n2. Selecciona la opción 'Solicitar Constancias y Certificados'.\n\n3. Haz clic en el botón 'NUEVA SOLICITUD'.\n\n4. Completa el formulario con tu información de la constancia o certificado que necesitas.\n\n5. Verifica que toda la información sea correcta y confirma la solicitud.\n\n6. El sistema generará automáticamente la constancia o certificado solicitado para que la descargues.",
+			"nombre": "Solicitar constancias o certificados",
+			"descripcion":"\nPara solicitar Certificado de Alumno Regular o de Asignaturas Rendidas, sigue los pasos a continuación:\n\n1. Accede dentro del SIU-GUARANÍ en la pestaña TRÁMITES.\n\n2. Selecciona la opción 'Solicitar Constancias y Certificados'.\n\n3. Haz clic en el botón 'NUEVA SOLICITUD'.\n\n4. Completa el formulario con tu información de la constancia o certificado que necesitas.\n\n5. Verifica que toda la información sea correcta y confirma la solicitud.\n\n6. El sistema generará automáticamente la constancia o certificado solicitado para que la descargues.",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163408"
 		},
 		{
