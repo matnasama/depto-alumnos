@@ -25,7 +25,8 @@
   margin: auto;
 }
 
-.MuiTypography-root{
-  display: grid;
+.titulo {
+  display: flex;
   place-content: center;
+  color: #fff;
 }
