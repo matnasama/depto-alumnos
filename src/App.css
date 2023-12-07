@@ -7,22 +7,19 @@
   flex-direction: column;
 }
 
-.banner {
-  background-image: url(/src/assets/INICIO.jpg);
-  background-color: aliceblue;
-  background-repeat: no-repeat;
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-  margin: 20px 0;
-}
-
 .info {
   max-width: 70vw;
   font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
   margin: auto;
+}
+
+@media (max-width: 480px) {
+  .info {
+    font-size: 1.2em;
+    max-width: 85vw;
+  }
 }
 
 .titulo {

@@ -31,7 +31,7 @@ const BasicCard = ({ tramites }) => {
   return (
     <div className='tramites-container'>
       {tramites.map((tramite) => (
-        <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330 }}>
+        <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, border:'3px solid rgba(61, 170, 236, 0.4)' }}>
           <CardContent>
             <Typography variant="h5" component="div" sx={{ fontFamily: 'Futura Std', color: "#0a2447", fontWeight: 600, textTransform:'uppercase', whiteSpace: 'pre-line' }}>
               {tramite.nombre}

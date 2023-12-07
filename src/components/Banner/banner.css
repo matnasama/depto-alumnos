@@ -1,0 +1,13 @@
+.banner-container {
+    margin-top: 2rem;
+}
+
+.banner {
+    background-image: url(/src/assets/INICIO.jpg);
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0;
+  }
