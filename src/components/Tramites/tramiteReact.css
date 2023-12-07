@@ -49,5 +49,8 @@
   .MuiBox-root {
     max-height: 75%;
   }}
-
-
+.MuiStack-root {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
