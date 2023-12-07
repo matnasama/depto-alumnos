@@ -59,6 +59,9 @@ const BasicCard = ({ tramites }) => {
                 </Typography>
 
                 <Stack spacing={2} direction="row">
+                  <Link href={tramite.urlrequisitos} underline='none' color={'#1976d2'} target="_blank" rel="noopener" sx={{textTransform:'uppercase'}}>
+                      {tramite.requisitos}
+                    </Link>
                   <Button variant="contained"> 
                     <Link href={tramite.url} underline='none' color={'#fff'} target="_blank" rel="noopener">
                       {tramite.type}

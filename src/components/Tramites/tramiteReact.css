@@ -58,4 +58,8 @@
   margin-top: 1rem;
 }
 
+.MuiStack-root a {
+  place-content: center;
+  display: grid;
+}
 
