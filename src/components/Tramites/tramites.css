@@ -5,14 +5,15 @@
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    place-content: center;
   }
   
 
 .MuiPaper-outlined {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .MuiTypography-h5 {
@@ -52,7 +53,7 @@
   }
 }
 
-.MuiStack-root {
+.modal-tramites {
   display: flex;
   justify-content: end;
   margin-top: 1rem;

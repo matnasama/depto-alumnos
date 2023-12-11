@@ -1,0 +1,11 @@
+.titulo {
+    display: flex;
+    place-content: center;
+    color: #fff;
+  }
+
+@media screen and (max-width: 480px) {
+    .titulo .MuiBox-root {
+        font-size: 3rem;
+    }
+}

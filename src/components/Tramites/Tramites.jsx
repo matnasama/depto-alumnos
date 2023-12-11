@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card, CardContent, CardActions, Button, Typography, Modal, Box } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import Link  from '@mui/material/Link';
-import './tramiteReact.css';
+import './tramites.css';
 
 const BasicCard = ({ tramites }) => {
   const [openModal, setOpenModal] = useState(null);
@@ -35,7 +35,7 @@ const BasicCard = ({ tramites }) => {
       {tramites.map((tramite) => (
         <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, border:'3px ridge rgba(6, 6, 6, 0.27)' }}>
           <CardContent>
-            <Typography variant="h5" component="div" sx={{ color: "#000000", fontWeight: 700, textTransform:'uppercase', whiteSpace: 'pre-line' }}>
+            <Typography variant="h5" component="div" sx={{ fontFamily: 'Josefin Sans', color: "#0a2447", textTransform:'uppercase', whiteSpace: 'pre-line' }}>
               {tramite.nombre}
             </Typography>
             <Typography sx={{ mb: 1.5, fontSize: '0.8em', whiteSpace: 'pre-line', fontFamily: 'Futura Std', fontWeight: 200 }} color="text.secondary">
@@ -58,7 +58,7 @@ const BasicCard = ({ tramites }) => {
                   {tramite.descripcion}
                 </Typography>
 
-                <Stack spacing={2} direction="row">
+                <Stack className='modal-tramites' spacing={2} direction="row">
                   <Link href={tramite.urlrequisitos} underline='none' color={'#1976d2'} target="_blank" rel="noopener" sx={{textTransform:'uppercase'}}>
                       {tramite.requisitos}
                     </Link>

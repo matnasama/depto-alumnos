@@ -9,3 +9,9 @@ footer {
 footer .MuiSvgIcon-root{
     color: #0a2447;
 }
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    .MuiBox-root {
+      max-height: 80%;
+    }
+  }

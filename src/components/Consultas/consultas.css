@@ -11,4 +11,7 @@
     .consultas {
         width: 80%;
     }
+    .titulo .MuiBox-root {
+        font-size: 3rem;
+    }
 }

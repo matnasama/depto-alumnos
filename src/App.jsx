@@ -1,10 +1,12 @@
 import Header from './components/Header/Header'
-import TituloTramites from './components/Tramites/Titulo'
+import TituloTramites from './components/Titulos/TituloTramites'
 import ControlledAccordions from './components/Consultas/Consultas'
-import Consultas from './components/Consultas/Titulo'
-import BasicCard from './components/Tramites/TramiteReact'
+import TituloConsultas from './components/Titulos/TituloConsultas'
+import BasicCard from './components/Tramites/Tramites'
 import Footer from './components/Footer/Footer'
 import Banner from './components/Banner/Banner'
+import Sitios from './components/Sitios/Sitios'
+import TituloSitios from './components/Titulos/TituloSitios'
 import { tramites } from './data/data.json'
 import { consultas } from './data/data.json'
 import './App.css'
@@ -22,8 +24,10 @@ function App() {
       </div>
       <TituloTramites />
       <BasicCard tramites={tramites}/>
-      <Consultas />
+      <TituloConsultas />
       <ControlledAccordions consultas={consultas}/>
+      <TituloSitios />
+      <Sitios />
       <Footer />
     </>
   )

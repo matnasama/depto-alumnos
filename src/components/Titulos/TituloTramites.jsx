@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import './tramiteReact.css'
+import './titulos.css'
 
 export default function TituloTramites() {
   return (
     <Typography className="titulo" component="div">
-      <Box sx={{ fontFamily: 'Monospace', fontSize: 'h3.fontSize', m: 1 }}>
+      <Box sx={{ fontFamily: 'Fjalla One', fontSize: 'h2.fontSize', m: 1, textShadow: '1px 5px 2px #555' }}>
         Trámites
       </Box>
     </Typography>
