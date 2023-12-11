@@ -4,7 +4,7 @@
 		"id": 1,
 		"nombre": "Cambio o Simultaneidad de Carreras",
 		"descripcion": "Para solicitar un cambio o simultaneidad* de carrera, deberá completar los siguientes formularios:\n\n- SOLICITUD DE CAMBIO/SIMULTANEIDAD DE CARRERA\n- FORMULARIO PRE-INSCRIPCIÓN\n\nJunto con los formularios completos, deberá presentar DNI y Analítico del Secundario (ORIGINALES y FOTOCOPIAS).\nPosteriormente, deberá realizar la presentación de los documentos de manera personal.\n* Para solicitar simultaneidad de carreras, es necesario contar con un 25% de las asignaturas aprobadas de la carrera en la que se encuentra previamente inscrito.",
-		"url": "src/files/SOLICITUD DE CAMBIO_SIMULTANEIDAD DE CARRERA.pdf",
+		"url": "https://drive.google.com/file/d/1nveDUYL9hmx1YboUzXu_NB-FsDNoLQam/view?usp=drive_link",
 		"type": "descargar"
 	  },
 	  {
@@ -18,7 +18,7 @@
 		"id": 3,
 		"nombre": "Certificado de Examen",
 		"descripcion": "Los Certificados de Examen podrá retirarlos en el Departamento de Alumnos o bien podrá imprimir este modelo.\nLos Certificados de Examen deben ser presentados en el Departamento de Alumnos dentro de nuestro horario de atención con firma y aclaración del docente con fecha del día del examen. \n\nLas prácticas realizadas fuera de la universidad para las asignaturas específicas se certifican en el departamento de su carrera.",
-		"url": "src/files/CERTIFICADO DE EXAMEN.pdf",
+		"url": "https://drive.google.com/file/d/1SGe8080Igdsz7QeH_o-Twjtblmdtj-8t/view?usp=sharing",
 		"type": "descargar"
 	  },
 	  {
@@ -33,7 +33,7 @@
 		"nombre": "Constancias o Certificados",
 		"sub": "Alumno Regular\nAsignaturas Rendidas",
 		"descripcion": "En la sección CONSULTAS FRECUENTES podrá encontrar el instructivo para generar cualquiera de las constancias.\n\n Si necesita una constancia de Alumno Regular específica, con días y horarios de cursada, podrá descargar el modelo aquí, completarlo y presentarlo en el Departamento de Alumnos",
-		"url": "src/files/ALUMNO REGULAR ESPECIFICO.pdf",
+		"url": "https://drive.google.com/file/d/1Cw_rbcdV6SSKdGlH4GLlX1IzNGah1KZv/view?usp=sharing",
 		"type": "descargar"
 	  },
 	  {
@@ -47,11 +47,10 @@
 		"id": 7,
 		"nombre": "Solicitud de Equivalencias",
 		"descripcion": "\nPara solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
-		"url": "src/files/SOLICITUD EQUIVALENCIAS.pdf",
+		"url": "https://drive.google.com/file/d/1HouwjN1zpjlg1D5TkbrE6-YxZjgFA8Fv/view?usp=sharing",
 		"type": "descargar",
 		"requisitos": "ver requisitos",
-		"urlrequisitos": "src/files/REQUISITOS DE EQUIVALENCIAS.pdf"
-
+		"urlrequisitos": "https://drive.google.com/file/d/1ARmvpwAma118d4-49X9mH4772hXaPraI/view?usp=sharing"
 	  }
 	],
 

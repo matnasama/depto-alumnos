@@ -7,11 +7,11 @@ export default function ContainedButtons() {
   return (
     <div className="sitios">
       <Stack direction="row" spacing={2}>
-          <Button variant="contained" href="src\files\CALENDARIO ACADEMICO 23.pdf" target='_blank' rel="noopener">
+          <Button variant="contained" href="http://www.unm.edu.ar/files/Calendario-Academico-2023-UNM-Sep-2022_xx.pdf" target='_blank' rel="noopener">
               CALENDARIO ACADÉMICO 2023
           </Button>
 
-          <Button variant="contained" href="src\files\CALENDARIO ACADEMICO 24.pdf"  target='_blank' rel="noopener">
+          <Button variant="contained" href="http://www.unm.edu.ar/files/Calendario_Acadmico_2024_UNM_Nov_2023_2.pdf"  target='_blank' rel="noopener">
               CALENDARIO ACADÉMICO 2024
           </Button>
       </Stack>

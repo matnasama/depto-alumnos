@@ -29,7 +29,7 @@ export default function ControlledAccordions() {
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography sx={{ paddingRight: '20px', flexShrink: 0, fontFamily: 'Futura Std', fontWeight:200, whiteSpace: 'pre-line' }}>
+                  <Typography sx={{ paddingRight: '20px', flexShrink: 0, fontFamily: 'Futura Std', fontWeight:200, whiteSpace: 'pre-line', textAlign: 'left' }}>
                     {consultas.descripcion}                     
                   </Typography>
                 </AccordionDetails>
