@@ -1,6 +1,9 @@
 .titulo {
     display: flex;
     place-content: center;
+  }
+
+  .titulo .MuiBox-root {
     color: #fff;
   }
 

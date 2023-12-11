@@ -16,6 +16,10 @@
     justify-content: space-between;
 }
 
+.MuiPaper-outlined .MuiCardContent-root {
+  padding: 5rem 1rem 0 1rem;
+}
+
 .MuiTypography-h5 {
     color: #0a2447;
 }
@@ -28,9 +32,7 @@
   justify-content: flex-start;
 }
 
-.titulo .MuiBox-root {
-  color: #fff;
-}
+
 
 @media only screen and (max-width: 480px) {
   .MuiBox-root {
@@ -63,4 +65,5 @@
   place-content: center;
   display: grid;
 }
+
 
