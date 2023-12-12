@@ -5,10 +5,12 @@ import './titulos.css'
 
 export default function TituloTramites() {
   return (
-    <Typography className="titulo" component="div">
-      <Box sx={{ fontFamily: 'Fjalla One', fontSize: 'h2.fontSize', m: 1, textShadow: '1px 5px 2px #555', textTransform: 'uppercase' }}>
-        Trámites
-      </Box>
-    </Typography>
+    <section id='seccion-tramites'>
+      <Typography className="titulo" component="div">
+        <Box sx={{ fontFamily: 'Fjalla One', fontSize: 'h2.fontSize', m: 1, textShadow: '1px 5px 2px #555', textTransform: 'uppercase' }}>
+          Trámites
+        </Box>
+      </Typography>
+    </section>
   );
 }

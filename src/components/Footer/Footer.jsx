@@ -9,7 +9,7 @@ import './footer.css'
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="seccion-contacto">
       <Box
         component="footer"
         sx={{

@@ -11,7 +11,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 const preventDefault = (event) => event.preventDefault();
 
-export default function UnderlineLink() {
+export default function Header() {
   const isMobile = useMediaQuery('(max-width: 540px)');
   const [openDrawer, setOpenDrawer] = useState(false);
 
