@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardActions, Button, Typography, Modal, Box } from '@mui/material';
 import Stack from '@mui/material/Stack';
-import Link  from '@mui/material/Link';
+import Link from '@mui/material/Link';
 import './tramites.css';
 
 const BasicCard = ({ tramites }) => {

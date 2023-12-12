@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Link from '@mui/material/Link';
 import { consultas } from '../../data/data.json'
 import './consultas.css'
 
@@ -30,8 +31,11 @@ export default function ControlledAccordions() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography sx={{ paddingRight: '20px', flexShrink: 0, fontFamily: 'Futura Std', fontWeight:200, whiteSpace: 'pre-line', textAlign: 'left' }}>
-                    {consultas.descripcion}                     
+                    {consultas.descripcion}                 
                   </Typography>
+                  <Link href={consultas.urlrequisitos} underline='none' color={'#1976d2'} target="_blank" rel="noopener" sx={{textTransform:'uppercase'}}>
+                      {consultas.requisitos}
+                    </Link>
                 </AccordionDetails>
               </Accordion> 
           </div>
