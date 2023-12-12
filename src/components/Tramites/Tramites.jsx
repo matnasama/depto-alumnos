@@ -4,7 +4,7 @@ import Stack from '@mui/material/Stack';
 import Link from '@mui/material/Link';
 import './tramites.css';
 
-const BasicCard = ({ tramites }) => {
+const Tramites = ({ tramites }) => {
   const [openModal, setOpenModal] = useState(null);
 
   const handleOpen = (tramiteId) => {
@@ -78,4 +78,4 @@ const BasicCard = ({ tramites }) => {
   );
 };
 
-export default BasicCard;
+export default Tramites;

@@ -1,0 +1,16 @@
+
+.info {
+    max-width: 70vw;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+  
+  @media (max-width: 480px) {
+    .info {
+      font-size: 1.2em;
+      max-width: 85vw;
+    }
+  }

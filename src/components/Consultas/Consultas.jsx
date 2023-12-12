@@ -8,7 +8,7 @@ import Link from '@mui/material/Link';
 import { consultas } from '../../data/data.json'
 import './consultas.css'
 
-export default function ControlledAccordions() {
+export default function Consultas() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
