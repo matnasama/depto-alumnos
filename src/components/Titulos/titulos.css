@@ -5,6 +5,8 @@
 
   .titulo .MuiBox-root {
     color: #fff;
+    margin-top: 2rem;
+
   }
 
 @media screen and (max-width: 480px) {

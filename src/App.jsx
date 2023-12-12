@@ -7,6 +7,8 @@ import Footer from './components/Footer/Footer'
 import Banner from './components/Banner/Banner'
 import Sitios from './components/Sitios/Sitios'
 import TituloSitios from './components/Titulos/TituloSitios'
+import TituloReglamentos from './components/Titulos/TituloReglamentos'
+import Documentos from './components/Documentos/Documentos'
 import { tramites } from './data/data.json'
 import { consultas } from './data/data.json'
 import './App.css'
@@ -28,6 +30,8 @@ function App() {
       <ControlledAccordions consultas={consultas}/>
       <TituloSitios />
       <Sitios />
+      <TituloReglamentos />
+      <Documentos />
       <Footer />
     </>
   )

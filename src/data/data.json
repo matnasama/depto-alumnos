@@ -23,10 +23,12 @@
 	  },
 	  {
 		"id": 4,
-		"nombre": "Modificación de Datos Personales",
-		"descripcion": "Si desea solicitar Modificación de Datos en el sistema deberá completar el formulario que encontrará subido en este espacio.",
-		"url": "http://campusvirtual.unm.edu.ar/moodle/mod/folder/view.php?id=163403",
-		"type": "ir al formulario"
+		"nombre": "Solicitud de Equivalencias",
+		"descripcion": "\nPara solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
+		"url": "https://drive.google.com/file/d/1HouwjN1zpjlg1D5TkbrE6-YxZjgFA8Fv/view?usp=sharing",
+		"type": "descargar",
+		"requisitos": "ver requisitos",
+		"urlrequisitos": "https://drive.google.com/file/d/1ARmvpwAma118d4-49X9mH4772hXaPraI/view?usp=sharing"
 	  },
 	  {
 		"id": 5,
@@ -42,15 +44,6 @@
 		"descripcion": "\nRecuerde verificar en su historial antes de completar el formulario y enviar su solicitud;  el cumplimiento del 100% del requerimiento de materias aprobadas según el plan de la carrera, para el título que solicitará. Ya que se deben encontrar todas las actividades correspondientes aprobadas y en actas cerradas, para que consten en su historial académico.\n\nSi completa el formulario no teniendo aún aprobadas la totalidad de las asignaturas, necesarias para la emisión del título, se desestimará la solicitud.\n\nPara solicitar la documentación que se requiere en la tramitación de su título deberá completar el siguiente formulario online Solicitud de documentación para Títulos.\n\nCompletando la misma se emitirá el Certificado de Cumplimiento de Requisitos de Ingreso y el Certificado de Asignaturas Rendidas, que posteriormente presentará al Departamento de Títulos.\n\nEl tiempo de entrega de la documentación estará sujeta a la verificación de datos realizadas por las áreas intervinientes.\n\nEn caso de corresponder se realizarán las modificaciones de sus datos en sistema antes de remitirle la documentación.",
 		"url": "https://forms.gle/B9nJQqVXGcdMvxea6",
 		"type": "ir al formulario"
-	  },
-	  {
-		"id": 7,
-		"nombre": "Solicitud de Equivalencias",
-		"descripcion": "\nPara solicitar equivalencias deberá completar la siguiente NOTA DE SOLICITUD.\n\nJunto con la mencionada nota deberá presentar los REQUISITOS DE EQUIVALENCIAS.\n\nLas materias que podrá solicitar por equivalencias deben estar aprobadas en su totalidad.\n\nPuede enviar un correo con su historia académica al departamento de su carrera realizando la consulta para informarse acerca de las asignaturas que puede solicitar y autorizar el formulario de solicitud una vez completado.\n\nDEPARTAMENTO DE CIENCIAS ECONÓMICAS Y JURÍDICAS\ndceyj@unm.edu.ar\nDEPARTAMENTO DE CIENCIAS APLICADAS Y TECNOLOGÍA\ndcayt@unm.edu.ar\nDEPARTAMENTO DE HUMANIDADES Y CIENCIAS SOCIALES\ndhycs@unm.edu.ar",
-		"url": "https://drive.google.com/file/d/1HouwjN1zpjlg1D5TkbrE6-YxZjgFA8Fv/view?usp=sharing",
-		"type": "descargar",
-		"requisitos": "ver requisitos",
-		"urlrequisitos": "https://drive.google.com/file/d/1ARmvpwAma118d4-49X9mH4772hXaPraI/view?usp=sharing"
 	  }
 	],
 
@@ -84,7 +77,7 @@
 		},
 		{
 			"id": 6,
-			"nombre": "Solicitud de Títulos",
+			"nombre": "Inicio del trámite del Título",
 			"descripcion": "Una vez que haya aprobado el 100% de las asignaturas de su carrera necesarias para  dar inicio al trámite de su título de GRADO o PRE-GRADO deberá comunicarse con el Departamento de Títulos a través de su correo titulos@unm.edu.ar.\n En dicha área le indicarán los requisitos para iniciar el trámite."
 		},
 		{

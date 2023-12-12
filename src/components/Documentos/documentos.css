@@ -1,0 +1,17 @@
+.reglamentos-container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.reglamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    place-items: center;
+}
+
+
