@@ -26,7 +26,7 @@ export default function Header() {
           <img className='logo' src={unmLogo} alt="" />
         </a>
 
-        {isMobile && (
+        {/* {isMobile && (
           <div className="menu" style={{ marginInlineEnd: '16px' }}>
             <IconButton color="inherit" edge="end" aria-label="menu" onClick={toggleDrawer} size="large">
               <MenuIcon fontSize="inherit" style={{ fontSize: '55px' }} />
@@ -63,9 +63,9 @@ export default function Header() {
               </Link>
             </Box>
           </div>
-        )}
+        )} */}
       </div>
-
+{/* 
       {isMobile && (
         <Drawer
           anchor="right"
@@ -105,7 +105,7 @@ export default function Header() {
             </Link>
           </Box>
         </Drawer>
-      )}
+      )} */}
          <div className="departamentos_contenedor">
             <div className="departamentos_linea departamentos_color1"></div>
             <div className="departamentos_linea departamentos_color2"></div>
