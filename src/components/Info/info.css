@@ -7,6 +7,10 @@
     margin: auto;
     color: #fff;
 }
+
+.info p {
+  margin-bottom: 0;
+}
   
   @media (max-width: 480px) {
     .info {
