@@ -18,7 +18,7 @@ export default function Consultas() {
   return (
     <div className='consultas'>
         {consultas.map((consultas) => (
-          <div key={consultas.id}  className="consultas-container">
+          <div key={consultas.id} className="consultas-container">
               <Accordion expanded={expanded === consultas.id} onChange={handleChange(consultas.id)}>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
