@@ -5,7 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import unmLogo from '../../assets/Logo-UNM-fondo-oscuro.png';
+import unmLogo from '../../assets/Logo-UNM-fondo-oscuro.webp';
 import './header.css';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
