@@ -35,7 +35,7 @@ const Tramites = ({ tramites }) => {
       {tramites.map((tramite) => (
         <Card key={tramite.id} variant="outlined" sx={{ width: 300, height: 330, border:'3px ridge rgba(6, 6, 6, 0.27)' }}>
           <CardContent>
-            <Typography variant="h5" component="div" sx={{ fontFamily: 'Josefin Sans', color: "#0a2447", textTransform:'uppercase', whiteSpace: 'pre-line' }}>
+            <Typography className='tramites-card' variant="h5" component="div" sx={{ fontFamily: 'Josefin Sans', color: "#0a2447", textTransform:'uppercase', whiteSpace: 'pre-line' }}>
               {tramite.nombre}
             </Typography>
             <Typography sx={{ mb: 1.5, fontSize: '0.8em', whiteSpace: 'pre-line', fontFamily: 'Futura Std', fontWeight: 200 }} color="text.secondary">

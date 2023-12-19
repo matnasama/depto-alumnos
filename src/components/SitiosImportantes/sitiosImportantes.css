@@ -1,0 +1,14 @@
+.sitios-importantes-container {
+    display: flex;
+    gap: 1rem;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+    place-content: center;
+}
+
+.sitios-importantes-card {
+    min-width: 90%;
+}
+

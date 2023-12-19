@@ -10,11 +10,14 @@ import Sitios from './components/Sitios/Sitios'
 import TituloSitios from './components/Titulos/TituloSitios'
 import TituloReglamentos from './components/Titulos/TituloReglamentos'
 import Documentos from './components/Documentos/Documentos'
+import TituloSitiosImportantes from './components/Titulos/SitiosImportantes'
+import SitiosImportantes from './components/SitiosImportantes/SitiosImportantes'
+import Chatbot from './components/Chatbot.jsx'
 import { tramites } from './data/data.json'
 import { consultas } from './data/data.json'
+import { sitios } from './data/data.json'
+
 import './App.css'
-
-
 
 function App() {
 
@@ -31,6 +34,9 @@ function App() {
       <Sitios />
       <TituloReglamentos />
       <Documentos />
+      <TituloSitiosImportantes />
+      <SitiosImportantes sitios={sitios}/>
+      <Chatbot />
       <Footer />
     </>
   )

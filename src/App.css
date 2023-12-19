@@ -7,4 +7,12 @@
   flex-direction: column;
 }
 
-
+#help-text {
+  position: fixed;
+  width: 60px;
+  bottom: 100px; 
+  right: 45px; 
+  color: #ff8809; 
+  font-size: 14px; 
+  z-index: 9999; 
+}
