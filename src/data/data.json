@@ -111,35 +111,35 @@
 			"id": 1,
 			"nombre": "Gestión online",
 			"url": "http://gestiononline.unm.edu.ar/unm3w/",
-			"imagen": "assets/guarani.webp"
+			"imagen": "/assets/guarani.webp"
 		},
 		{
 			"id": 2,
 			"nombre": "Biblioteca y centro de documentación",
 			"email": "biblioteca@unm.edu.ar",
 			"url": "http://biblioteca.unm.edu.ar/cgi-bin/koha/opac-main.pl",
-			"imagen": "assets/biblioteca.webp"
+			"imagen": "/assets/biblioteca.webp"
 		},
 		{
 			"id": 3,
 			"nombre": "Instituto tecnológico universidad nacional de moreno",
 			"email": "itunm@unm.edu.ar",
 			"url": "http://itunm.unm.edu.ar/",
-			"imagen": "assets/itunm.webp"
+			"imagen": "/assets/itunm.webp"
 		},
 		{
 			"id": 4,
 			"nombre": "Posgrado",
 			"email": "posgrado@unm.edu.ar",
 			"url": "http://www.unm.edu.ar/index.php/carreras/posgrado",
-			"imagen": "assets/posgrado-unm.webp"
+			"imagen": "/assets/posgrado-unm.webp"
 		},
 		{
 			"id": 5,
 			"nombre": "Campus Virtual",
 			"email": "campusvirtual@unm.edu.ar",
 			"url": "http://campusvirtual.unm.edu.ar/moodle/login/index.php",
-			"imagen": "assets/campusvirtual.webp"
+			"imagen": "/assets/campusvirtual.webp"
 		}
 	]
 }
